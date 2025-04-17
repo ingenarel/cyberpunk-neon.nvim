@@ -87,6 +87,7 @@ if vim.o.background == "dark" then
 	vim.api.nvim_set_hl(0, "metapackKeymap", { fg = "#f91176" })
 	vim.api.nvim_set_hl(0, "metapackBracket", { fg = "#f911ea" })
 	vim.api.nvim_set_hl(0, "metapackKeymapRest", { fg = "#9511f9" })
+	vim.api.nvim_set_hl(0, "metapackPackageBorders", { fg = "#00FFE1" })
 	--metapack}}}
 end
 -- this theme is actually a custom+improved version of https://github.com/thedenisnikulin/vim-cyberpunk
