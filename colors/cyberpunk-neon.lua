@@ -90,5 +90,7 @@ if vim.o.background == "dark" then
     vim.api.nvim_set_hl(0, "metapackPackageBorders", { fg = "#00FFE1" })
     vim.api.nvim_set_hl(0, "metapackTick", { fg = "#00FF00" })
     --metapack}}}
+
+    vim.api.nvim_set_hl(0, "TreesitterContext", { bg = "#5F256F", blend = 50 })
 end
 -- this theme is actually a custom+improved version of https://github.com/thedenisnikulin/vim-cyberpunk
