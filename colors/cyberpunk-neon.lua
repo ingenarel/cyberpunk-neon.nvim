@@ -8,6 +8,7 @@ vim.g.colors_name = "cyberpunk-neon"
 if vim.o.background == "dark" then
     -- nvim {{{
     vim.api.nvim_set_hl(0, "Normal", { fg = "#FF1163", bg = "NONE" })
+    vim.api.nvim_set_hl(0, "NormalFloat", { link = "Normal" })
     vim.api.nvim_set_hl(0, "Visual", { reverse = true })
 
     vim.api.nvim_set_hl(0, "SignColumn", { fg = "#00FFC8" })
